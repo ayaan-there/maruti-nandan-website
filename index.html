@@ -1,0 +1,461 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maruti Nandan Marmo & Grani</title>
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="stylesheet" href="style.css">
+  <style>@view-transition { navigation: auto; }</style>
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet">
+ </head>
+ <body><!-- Navigation -->
+  <nav>
+   <div class="nav-container">
+    <div class="logo-container"><img src="https://i.postimg.cc/Mccrc0b4/Maruti-Nandan-Logo.png" alt="Company Logo" class="logo-image" onerror="this.style.display='none';">
+     <div class="logo-section">
+      <div class="logo" id="business-name">
+      Maruti Nandan Marmo & Grani
+      </div>
+      <div class="tagline" id="tagline">
+       Quality tiles for your dream space
+      </div>
+     </div>
+    </div>
+    <ul class="nav-links">
+     <li><a href="#home" class="nav-link" data-page="home">Home</a></li>
+     <li><a href="#showcase" class="nav-link" data-page="showcase">Showcase</a></li>
+     <li><a href="#about" class="nav-link" data-page="about">About Us</a></li>
+     <li><a href="#contact" class="nav-link" data-page="contact">Contact Us</a></li>
+    </ul>
+   </div>
+  </nav><!-- Home Page -->
+  <div id="home-page" class="page active">
+   <div class="hero">
+    <h1 id="hero-title">Transform Your Space with Premium Tiles</h1>
+    <p id="hero-subtitle">Discover our exquisite collection of marble and granite tiles</p><button class="cta-button" id="cta-button" onclick="navigateTo('showcase')">View Our Collection</button>
+   </div>
+   <div class="content-section">
+    <h2 class="section-title">Why Choose Us</h2>
+    <div class="features-grid">
+     <div class="feature-card">
+      <div class="feature-background" style="background-image: url('https://picsum.photos/seed/experience/1200/400');"></div>
+      <div class="feature-overlay">
+       <h1 class="feature-title"><span class="bold-filled">15+ Years</span> <span class="bold-outline">of Experience</span></h1>
+       <p>Trusted expertise built over decades in the stone industry.</p>
+      </div>
+     </div>
+     <div class="feature-card">
+      <div class="feature-background" style="background-image: url('https://picsum.photos/seed/quality/1200/400');"></div>
+      <div class="feature-overlay">
+       <h3 class="feature-title"><span class="bold-filled">Highest</span> <span class="bold-outline">Quality Stones</span></h3>
+       <p>Hand-selected granite &amp; marble sourced from reliable quarries.</p>
+      </div>
+     </div>
+     <div class="feature-card">
+      <div class="feature-background" style="background-image: url('https://picsum.photos/seed/precision/1200/400');"></div>
+      <div class="feature-overlay">
+       <h3 class="feature-title"><span class="bold-filled">Precision</span> <span class="bold-outline">Cutting &amp; Finishing</span></h3>
+       <p>Advanced machinery ensuring flawless polish and accurate dimensions.</p>
+      </div>
+     </div>
+     <div class="feature-card">
+      <div class="feature-background" style="background-image: url('https://picsum.photos/seed/supply/1200/400');"></div>
+      <div class="feature-overlay">
+       <h3 class="feature-title"><span class="bold-filled">Strong &amp;</span> <span class="bold-outline">Reliable Supply</span></h3>
+       <p>Consistent stock availability for all project sizes — small to bulk.</p>
+      </div>
+     </div>
+     <div class="feature-card">
+      <div class="feature-background" style="background-image: url('https://picsum.photos/seed/delivery/1200/400');"></div>
+      <div class="feature-overlay">
+       <h3 class="feature-title"><span class="bold-filled">Delivery</span> <span class="bold-outline">Anywhere</span></h3>
+       <p>Safe and timely delivery across Rajasthan &amp; pan-India.</p>
+      </div>
+     </div>
+     <div class="feature-card">
+      <div class="feature-background" style="background-image: url('https://picsum.photos/seed/service/1200/400');"></div>
+      <div class="feature-overlay">
+       <h3 class="feature-title"><span class="bold-filled">Customer-First</span> <span class="bold-outline">Service</span></h3>
+       <p>Quick response, professional support, and long-term relationship focus.</p>
+      </div>
+     </div>
+    </div>
+   </div>
+   <!-- Testimonials Section -->
+   <div class="testimonials-section">
+    <div class="testimonials-container">
+     <h2 class="section-title" style="margin-bottom: 3rem;">What Our Customers Say</h2>
+     <div class="testimonials-carousel">
+      <div class="testimonials-wrapper" id="testimonialsWrapper">
+       <div class="testimonial-slide">
+        <p class="testimonial-quote">"Marble this smooth? Never thought I'd say this, but our office lobby looks like a dream now"</p>
+        <img src="https://i.postimg.cc/Dz7kQhyR/user1-avatar.jpg" alt="Priya Joshi" class="testimonial-author-img">
+        <h3 class="testimonial-author">Priya Joshi</h3>
+        <p class="testimonial-role">Office Owner, Mumbai</p>
+       </div>
+       <div class="testimonial-slide">
+        <p class="testimonial-quote">"We ordered tiles for our café, They've added a truly elegant touch to the space"</p>
+        <img src="https://i.postimg.cc/kXPnDTvv/user2-avatar.jpg" alt="Rohit Agrawal" class="testimonial-author-img">
+        <h3 class="testimonial-author">Rohit Agrawal</h3>
+        <p class="testimonial-role">Café Owner, Delhi</p>
+       </div>
+       <div class="testimonial-slide">
+        <p class="testimonial-quote">"I thought the countertops would look nice, but seeing them in person was way better. The quality and finish are exactly what we wanted."</p>
+        <img src="https://i.postimg.cc/9QhH1MZF/user3-avatar.jpg" alt="Tanvi" class="testimonial-author-img">
+        <h3 class="testimonial-author">Tanvi</h3>
+        <p class="testimonial-role">Interior Designer, Bangalore</p>
+       </div>
+      </div>
+     </div>
+     <div class="testimonials-nav">
+      <button class="testimonials-arrow" id="prevBtn" onclick="moveTestimonial(-1)">❮</button>
+      <div class="testimonials-dots" id="dotsContainer"></div>
+      <button class="testimonials-arrow" id="nextBtn" onclick="moveTestimonial(1)">❯</button>
+     </div>
+    </div>
+   </div>
+   <!-- Our Process Section -->
+   <div class="process-section">
+    <div class="content-section">
+     <h2 class="section-title" style="margin-bottom: 3rem;">Our Process</h2>
+     <div class="process-slabs">
+      <div class="process-slab">
+       <div class="slab-left">
+        <h3>Material Selection & Responsible Sourcing</h3>
+        <p>Hand-selecting stones from trusted quarries in Kelwa and across India. Each block evaluated for strength, colour consistency, and quality.</p>
+       </div>
+       <div class="slab-divider">/</div>
+       <div class="slab-right">
+        <h3>Precision Cutting & Shaping</h3>
+        <p>Advanced machinery ensures millimetre-level precision. Perfectly shaped pieces for flooring, countertops, wall cladding, and custom slabs.</p>
+       </div>
+      </div>
+      <div class="process-slab">
+       <div class="slab-left">
+        <h3>Polishing & Finishing Excellence</h3>
+        <p>Enhancing natural beauty with uniform shine, smooth edges, and long-lasting durability. Each slab refined to bring out rich colour depth.</p>
+       </div>
+       <div class="slab-divider">/</div>
+       <div class="slab-right">
+        <h3>Rigorous Quality Inspection</h3>
+        <p>Multi-step quality checks inspecting surface smoothness, colour uniformity, structural strength, edge finishing, and pattern consistency.</p>
+       </div>
+      </div>
+      <div class="process-slab">
+       <div class="slab-left">
+        <h3>Secure & Export-Ready Packaging</h3>
+        <p>Shock-resistant, moisture-safe, export-grade materials ensuring safe delivery worldwide. Meets international export standards.</p>
+       </div>
+       <div class="slab-divider">/</div>
+       <div class="slab-right">
+        <h3>Timely Delivery to Homes, Sites & Ports</h3>
+        <p>Reliable logistics network delivering to homes, commercial sites, warehouses, and ports. On-time delivery with complete care and safety.</p>
+       </div>
+      </div>
+      <div class="process-slab">
+       <div class="slab-left">
+        <h3>Customer Support & Assistance</h3>
+        <p>Helping clients choose the right stone and guiding through installation. Making the entire experience simple, transparent, and stress-free.</p>
+       </div>
+       <div class="slab-divider">/</div>
+       <div class="slab-right">
+        <h3>Export Capability</h3>
+        <p>Fully equipped to export granite and marble globally. Premium-quality stones, export-standard packaging, and reliable logistics reflect true Indian craftsmanship.</p>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+   <div style="text-align: center; padding: 3rem 2rem;">
+    <button class="enquiry-button" onclick="navigateTo('contact')">Enquiry Now</button>
+   </div>
+  </div>
+  <!-- Home Page End -->
+  <div id="showcase-page" class="page">
+   <div class="content-section">
+    <h2 class="section-title">Our Tile Collection</h2>
+    <p class="section-subtitle">Explore our carefully curated selection of premium marble and granite tiles</p><!-- Tab Navigation -->
+    <div class="tab-container"><button class="tab-button active" data-category="indian">Indian Marble</button> <button class="tab-button" data-category="imported">Imported Marble</button> <button class="tab-button" data-category="granite">Granite Collection</button>
+    </div><!-- Indian Marble Collection -->
+    <div id="indian" class="category-content active">
+     <div class="masonry-grid">
+      <div class="tile-showcase large"><span class="tile-badge">Premium</span>
+       <div class="tile-pattern" style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); position: relative;">
+        <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: repeating-linear-gradient(45deg, transparent, transparent 10px, rgba(200,200,200,0.1) 10px, rgba(200,200,200,0.1) 20px);"></div>
+       </div>
+       <div class="tile-overlay">
+        <h3 class="tile-showcase-name">Carrara White</h3>
+        <p class="tile-showcase-desc">Classic Italian marble with subtle grey veining</p>
+       </div>
+      </div>
+      <div class="tile-showcase"><span class="tile-badge">Luxury</span>
+       <div class="tile-pattern" style="background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%); position: relative;">
+        <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: repeating-linear-gradient(-45deg, transparent, transparent 15px, rgba(255,255,255,0.1) 15px, rgba(255,255,255,0.1) 30px);"></div>
+       </div>
+       <div class="tile-overlay">
+        <h3 class="tile-showcase-name">Nero Marquina</h3>
+        <p class="tile-showcase-desc">Dramatic black marble with striking white veins</p>
+       </div>
+      </div>
+      <div class="tile-showcase"><span class="tile-badge">Signature</span>
+       <div class="tile-pattern" style="background: linear-gradient(135deg, #d4af37 0%, #f4e4c1 100%); position: relative;">
+        <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: radial-gradient(circle at 30% 40%, rgba(212,175,55,0.3) 0%, transparent 50%), radial-gradient(circle at 70% 60%, rgba(212,175,55,0.2) 0%, transparent 50%);"></div>
+       </div>
+       <div class="tile-overlay">
+        <h3 class="tile-showcase-name">Calacatta Gold</h3>
+        <p class="tile-showcase-desc">Luxurious marble with gold and grey veining</p>
+       </div>
+      </div>
+      <div class="tile-showcase large"><span class="tile-badge">Exclusive</span>
+       <div class="tile-pattern" style="background: linear-gradient(135deg, #ffd5cd 0%, #ffe5de 100%); position: relative;">
+        <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: repeating-linear-gradient(30deg, transparent, transparent 12px, rgba(255,192,203,0.2) 12px, rgba(255,192,203,0.2) 24px);"></div>
+       </div>
+       <div class="tile-overlay">
+        <h3 class="tile-showcase-name">Rosa Portogallo</h3>
+        <p class="tile-showcase-desc">Beautiful pink marble with natural patterns</p>
+       </div>
+      </div>
+      <div class="tile-showcase"><span class="tile-badge">Premium</span>
+       <div class="tile-pattern" style="background: linear-gradient(135deg, #E5E5E5 0%, #CCCCCC 100%); position: relative;">
+        <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: repeating-linear-gradient(0deg, transparent, transparent 8px, rgba(128,128,128,0.15) 8px, rgba(128,128,128,0.15) 16px);"></div>
+       </div>
+       <div class="tile-overlay">
+        <h3 class="tile-showcase-name">Statuario Venato</h3>
+        <p class="tile-showcase-desc">Pure white with dramatic grey veining</p>
+       </div>
+      </div>
+      <div class="tile-showcase"><span class="tile-badge">Classic</span>
+       <div class="tile-pattern" style="background: linear-gradient(135deg, #d2b48c 0%, #f5deb3 100%); position: relative;">
+        <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: repeating-linear-gradient(60deg, transparent, transparent 10px, rgba(160,82,45,0.1) 10px, rgba(160,82,45,0.1) 20px);"></div>
+       </div>
+       <div class="tile-overlay">
+        <h3 class="tile-showcase-name">Crema Marfil</h3>
+        <p class="tile-showcase-desc">Warm beige tones with soft veining</p>
+       </div>
+      </div>
+     </div>
+    </div><!-- Imported Marble Collection -->
+    <div id="imported" class="category-content">
+     <div class="masonry-grid">
+      <div class="tile-showcase large"><span class="tile-badge">Premium</span>
+       <div class="tile-pattern" style="background: linear-gradient(135deg, #f0e68c 0%, #ffd700 100%); position: relative;">
+        <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: repeating-linear-gradient(45deg, transparent, transparent 10px, rgba(184,134,11,0.15) 10px, rgba(184,134,11,0.15) 20px);"></div>
+       </div>
+       <div class="tile-overlay">
+        <h3 class="tile-showcase-name">Botticino Classico</h3>
+        <p class="tile-showcase-desc">Italian marble with warm golden tones</p>
+       </div>
+      </div>
+      <div class="tile-showcase"><span class="tile-badge">Luxury</span>
+       <div class="tile-pattern" style="background: linear-gradient(135deg, #e6b8d4 0%, #f5e6f0 100%); position: relative;">
+        <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: repeating-linear-gradient(-45deg, transparent, transparent 12px, rgba(200,150,200,0.1) 12px, rgba(200,150,200,0.1) 24px);"></div>
+       </div>
+       <div class="tile-overlay">
+        <h3 class="tile-showcase-name">Bardiglio Imperiale</h3>
+        <p class="tile-showcase-desc">Rare Italian marble with rosy overtones</p>
+       </div>
+      </div>
+      <div class="tile-showcase"><span class="tile-badge">Signature</span>
+       <div class="tile-pattern" style="background: linear-gradient(135deg, #fffacd 0%, #ffe4b5 100%); position: relative;">
+        <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: radial-gradient(circle at 30% 40%, rgba(184,134,11,0.2) 0%, transparent 50%);"></div>
+       </div>
+       <div class="tile-overlay">
+        <h3 class="tile-showcase-name">Miele Marble</h3>
+        <p class="tile-showcase-desc">Pale golden imported marble with natural fossils</p>
+       </div>
+      </div>
+      <div class="tile-showcase"><span class="tile-badge">Exclusive</span>
+       <div class="tile-pattern" style="background: linear-gradient(135deg, #daa520 0%, #cd853f 100%); position: relative;">
+        <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: radial-gradient(circle at 50% 50%, rgba(0,0,0,0.1) 1px, transparent 1px); background-size: 10px 10px;"></div>
+       </div>
+       <div class="tile-overlay">
+        <h3 class="tile-showcase-name">Giallo Siena</h3>
+        <p class="tile-showcase-desc">Rich golden Tuscan marble with depth</p>
+       </div>
+      </div>
+      <div class="tile-showcase large"><span class="tile-badge">Luxury</span>
+       <div class="tile-pattern" style="background: linear-gradient(135deg, #f5deb3 0%, #ffefd5 100%); position: relative;">
+        <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: repeating-linear-gradient(60deg, transparent, transparent 8px, rgba(220,180,140,0.1) 8px, rgba(220,180,140,0.1) 16px);"></div>
+       </div>
+       <div class="tile-overlay">
+        <h3 class="tile-showcase-name">Perlato Svevo</h3>
+        <p class="tile-showcase-desc">Portuguese pearl marble with subtle iridescence</p>
+       </div>
+      </div>
+     </div>
+    </div><!-- Granite Collection -->
+    <div id="granite" class="category-content">
+     <div class="masonry-grid">
+      <div class="tile-showcase large"><span class="tile-badge">Premium</span>
+       <div class="tile-pattern" style="background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%); position: relative;">
+        <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: radial-gradient(circle at 20% 30%, rgba(255,255,255,0.1) 1px, transparent 1px), radial-gradient(circle at 80% 70%, rgba(255,255,255,0.05) 1px, transparent 1px); background-size: 15px 15px;"></div>
+       </div>
+       <div class="tile-overlay">
+        <h3 class="tile-showcase-name">Absolute Black</h3>
+        <p class="tile-showcase-desc">Pure black granite with minimal patterning</p>
+       </div>
+      </div>
+      <div class="tile-showcase"><span class="tile-badge">Popular</span>
+       <div class="tile-pattern" style="background: linear-gradient(135deg, #8b7355 0%, #a0826d 100%); position: relative;">
+        <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: radial-gradient(circle at 25% 25%, rgba(0,0,0,0.3) 2px, transparent 2px), radial-gradient(circle at 75% 75%, rgba(139,69,19,0.2) 1px, transparent 1px); background-size: 20px 20px, 12px 12px;"></div>
+       </div>
+       <div class="tile-overlay">
+        <h3 class="tile-showcase-name">Tan Brown</h3>
+        <p class="tile-showcase-desc">Rich brown with black and grey flecks</p>
+       </div>
+      </div>
+      <div class="tile-showcase"><span class="tile-badge">Signature</span>
+       <div class="tile-pattern" style="background: linear-gradient(135deg, #8b0000 0%, #a52a2a 100%); position: relative;">
+        <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: radial-gradient(circle at 40% 50%, rgba(255,215,0,0.15) 2px, transparent 2px), radial-gradient(circle at 60% 30%, rgba(0,0,0,0.2) 1px, transparent 1px); background-size: 18px 18px, 10px 10px;"></div>
+       </div>
+       <div class="tile-overlay">
+        <h3 class="tile-showcase-name">Ruby Red</h3>
+        <p class="tile-showcase-desc">Bold red granite with natural sparkle</p>
+       </div>
+      </div>
+      <div class="tile-showcase large"><span class="tile-badge">Luxury</span>
+       <div class="tile-pattern" style="background: linear-gradient(135deg, #c0c0c0 0%, #d3d3d3 100%); position: relative;">
+        <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: radial-gradient(circle at 30% 40%, rgba(139,0,0,0.2) 2px, transparent 2px), radial-gradient(circle at 70% 60%, rgba(105,105,105,0.15) 1px, transparent 1px); background-size: 16px 16px, 12px 12px;"></div>
+       </div>
+       <div class="tile-overlay">
+        <h3 class="tile-showcase-name">Kashmir White</h3>
+        <p class="tile-showcase-desc">Light granite with burgundy and grey specks</p>
+       </div>
+      </div>
+      <div class="tile-showcase"><span class="tile-badge">Modern</span>
+       <div class="tile-pattern" style="background: linear-gradient(135deg, #2f4f4f 0%, #3d5c5c 100%); position: relative;">
+        <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: radial-gradient(circle at 35% 45%, rgba(255,255,255,0.1) 1px, transparent 1px), radial-gradient(circle at 65% 55%, rgba(0,0,0,0.2) 2px, transparent 2px); background-size: 14px 14px, 18px 18px;"></div>
+       </div>
+       <div class="tile-overlay">
+        <h3 class="tile-showcase-name">Steel Grey</h3>
+        <p class="tile-showcase-desc">Contemporary grey with metallic flecks</p>
+       </div>
+      </div>
+      <div class="tile-showcase"><span class="tile-badge">Classic</span>
+       <div class="tile-pattern" style="background: linear-gradient(135deg, #772014 0%, #9A3D26 100%); position: relative;">
+        <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: radial-gradient(circle at 45% 35%, rgba(0,0,0,0.25) 2px, transparent 2px), radial-gradient(circle at 55% 65%, rgba(210,180,140,0.2) 1px, transparent 1px); background-size: 16px 16px, 11px 11px;"></div>
+       </div>
+       <div class="tile-overlay">
+        <h3 class="tile-showcase-name">Colonial Gold</h3>
+        <p class="tile-showcase-desc">Warm brown with golden highlights</p>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div><!-- About Page -->
+  <div id="about-page" class="page">
+   <div class="content-section">
+    <h2 class="section-title" id="about-title">What We Stand For</h2>
+    <div class="about-content">
+     <p id="about-text">Established in 2011, Marutinanadan has grown from a small local setup in Kelwa, Rajasthan, into a trusted and recognized name in the granite and marble industry. Built on dedication, craftsmanship, and a commitment to quality, we have spent over a decade supplying premium stones to both homes and large commercial projects across the region.</p>
+     <p style="margin-top: 1.5rem;">From the very beginning, our goal has been simple - to provide customers with high-quality stone, honest pricing, and reliable service. Over the years, we've expanded our product range, invested in better technology, and built a reputation for delivering stones that meet the highest standards of beauty and durability.</p>
+     <p style="margin-top: 1.5rem;">At Marutinanadan, we offer an extensive selection of natural stones including Granite, Indian Marble, Premium Italian Marble, Tiles, Slabs, Countertops, and fully customized stone solutions for any project. Whether it's a home renovation, a modern office, a café, or a large property development, we work with the same level of attention, professionalism, and care.</p>
+     <p style="margin-top: 1.5rem;">Our team ensures every stone is sourced responsibly and processed with precision. We believe in transparency and long-term trust, which is why every product we deliver is thoroughly inspected and finished with consistency. From classic choices to rare designs, we help customers find exactly what fits their style, space, and budget.</p>
+     <p style="margin-top: 1.5rem;">Over time, we've had the privilege of working with a wide range of residential and commercial clients. Whether it's a simple kitchen countertop or an entire flooring project, our promise remains the same — quality stones, dependable service, and complete customer satisfaction.</p>
+     <p style="margin-top: 1.5rem;">Today, Marutinanadan continues to blend traditional experience with modern techniques to bring the best stones to your doorstep. With our roots firmly in Kelwa and our vision focused on excellence, we aim to be your one-stop solution for all granite, marble, and stone requirements.</p>
+    </div>
+    <h2 class="section-title" style="margin-top: 4rem;">What We Aim To Achieve</h2>
+    <div class="features-grid">
+     <div class="feature-card">
+      <div class="feature-background" style="background-image: url('https://picsum.photos/seed/value/1200/400');"></div>
+      <div class="feature-overlay">
+       <h3 class="feature-title"><span class="bold-filled">Best</span> <span class="bold-outline">Value</span></h3>
+       <p>Provide the finest quality stones at fair and competitive prices — the best quality at the best value.</p>
+      </div>
+     </div>
+     <div class="feature-card">
+      <div class="feature-background" style="background-image: url('https://picsum.photos/seed/accuracy/1200/400');"></div>
+      <div class="feature-overlay">
+       <h3 class="feature-title"><span class="bold-filled">100%</span> <span class="bold-outline">Accuracy</span></h3>
+       <p>Maintain 100% accuracy in cutting, polishing, and finishing for every order.</p>
+      </div>
+     </div>
+     <div class="feature-card">
+      <div class="feature-background" style="background-image: url('https://picsum.photos/seed/dependable/1200/400');"></div>
+      <div class="feature-overlay">
+       <h3 class="feature-title"><span class="bold-filled">Dependable</span> <span class="bold-outline">Supply</span></h3>
+       <p>Provide a dependable and uninterrupted supply for every scale of requirement.</p>
+      </div>
+     </div>
+     <div class="feature-card">
+      <div class="feature-background" style="background-image: url('https://picsum.photos/seed/seamless/1200/400');"></div>
+      <div class="feature-overlay">
+       <h3 class="feature-title"><span class="bold-filled">Seamless</span> <span class="bold-outline">Delivery</span></h3>
+       <p>Offer seamless delivery anywhere, with safe packaging and timely dispatch.</p>
+      </div>
+     </div>
+     <div class="feature-card">
+      <div class="feature-background" style="background-image: url('https://picsum.photos/seed/relationships/1200/400');"></div>
+      <div class="feature-overlay">
+       <h3 class="feature-title"><span class="bold-filled">Long-Term</span> <span class="bold-outline">Relationships</span></h3>
+       <p>Build long-term relationships through transparent service and dependable support.</p>
+      </div>
+     </div>
+     <div class="feature-card">
+      <div class="feature-background" style="background-image: url('https://picsum.photos/seed/solution/1200/400');"></div>
+      <div class="feature-overlay">
+       <h3 class="feature-title"><span class="bold-filled">One-Stop</span> <span class="bold-outline">Solution</span></h3>
+       <p>Become a one-stop solution for all granite and marble needs.</p>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div><!-- Contact Page -->
+  <div id="contact-page" class="page">
+   <div class="content-section">
+    <h2 class="section-title" id="contact-title">Get In Touch</h2>
+    <p class="section-subtitle">We'd love to hear from you. Reach out to discuss your next project.</p>
+    <div class="contact-grid">
+     <div class="contact-info">
+      <div class="contact-item">
+       <h3 id="phone-label">Phone</h3>
+       <p id="phone-number">+91 9414173630 / +91 8619643199</p>
+      </div>
+      <div class="contact-item">
+       <h3 id="email-label">Email</h3>
+       <p id="email-address">marutinandan017@gmail.com</p>
+      </div>
+      <div class="contact-item">
+       <h3 id="address-label">Address</h3>
+       <p id="address-text">NH-8 Nijarna Road, Kelwa<br>
+        Rajsamand</p>
+      </div>
+      <div class="contact-item">
+       <h3>Business Hours</h3>
+       <p>Monday - Friday: 9:00 AM - 6:00 PM<br>
+        Saturday: 10:00 AM - 4:00 PM<br>
+        Sunday: Closed</p>
+      </div>
+      <div class="contact-item">
+       <h3>Our Location</h3><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3559.4956284851634!2d75.78726447549472!3d26.857932376689487!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db5d6d6d6d6d7%3A0x6d6d6d6d6d6d6d6d!2sMaruti%20Nandan%20Marmo%20and%20Grani%20Pvt.%20Ltd.!5e0!3m2!1sen!2sin!4v1234567890123!5m2!1sen!2sin" width="100%" height="250" style="border:0; border-radius: 8px; margin-top: 0.5rem;" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"> </iframe>
+      </div>
+     </div>
+     <div class="contact-form">
+      <form id="contact-form">
+       <div class="form-group"><label for="name">Name</label> <input type="text" id="name" name="name" required>
+       </div>
+       <div class="form-group"><label for="email">Email</label> <input type="email" id="email" name="email" required>
+       </div>
+       <div class="form-group"><label for="phone">Phone</label> <input type="tel" id="phone" name="phone">
+       </div>
+       <div class="form-group"><label for="message">Message</label> <textarea id="message" name="message" required></textarea>
+       </div><button type="submit" class="submit-button">Send Message</button>
+       <div class="success-message" id="success-message">
+        Thank you! We'll get back to you soon.
+       </div>
+      </form>
+     </div>
+    </div>
+   </div>
+  </div><!-- WhatsApp Floating Button --> <a href="https://wa.me/9414173630" target="_blank" rel="noopener noreferrer" class="whatsapp-button" aria-label="Contact us on WhatsApp"> 💬 </a> <!-- Footer -->
+  <footer>
+   <div style="display: flex; justify-content: center; align-items: center; gap: 2rem; margin-bottom: 2rem;">
+    <a href="https://www.instagram.com/mn_granites?igsh=MWF2cThjejgxb3AzaA==" target="_blank" rel="noopener noreferrer" class="instagram-button" aria-label="Follow us on Instagram"> <i class="ri-instagram-line"></i> </a>
+   </div>
+   <p id="footer-text">© 2025 Maruti Nandan Marmo and Grani Pvt. Ltd. All rights reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+ </body>
+</html>
