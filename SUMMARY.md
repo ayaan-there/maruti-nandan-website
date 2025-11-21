@@ -24,7 +24,7 @@ Your **production-ready website** for Maruti Nandan Marmo & Grani with:
 - **This file** - Complete summary
 
 ---
-
+all was for vercel
 ## 🚀 Deployment Options
 
 ### RECOMMENDED: Vercel (Free)
