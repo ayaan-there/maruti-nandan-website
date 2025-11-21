@@ -37,6 +37,20 @@ module.exports = async function handler(req, res) {
     return res.status(405).json({ message: 'Method not allowed' });
   }
 
+  // Debug: Check if environment variables are set
+  if (!process.env.GMAIL_USER || !process.env.GMAIL_PASSWORD || !process.env.BUSINESS_EMAIL) {
+    console.error('Missing environment variables:', {
+      GMAIL_USER: process.env.GMAIL_USER ? 'SET' : 'MISSING',
+      GMAIL_PASSWORD: process.env.GMAIL_PASSWORD ? 'SET' : 'MISSING',
+      BUSINESS_EMAIL: process.env.BUSINESS_EMAIL ? 'SET' : 'MISSING'
+    });
+    return res.status(500).json({
+      success: false,
+      message: 'Server configuration error. Please contact support.',
+      details: 'Missing environment variables'
+    });
+  }
+
   const { name, email, phone, message } = req.body;
 
   // Validate required fields
