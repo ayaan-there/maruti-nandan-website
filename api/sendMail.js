@@ -31,7 +31,7 @@ const transporter = nodemailer.createTransport({
  *   message: string (required)
  * }
  */
-export default async function handler(req, res) {
+module.exports = async function handler(req, res) {
   // Only accept POST requests
   if (req.method !== 'POST') {
     return res.status(405).json({ message: 'Method not allowed' });
