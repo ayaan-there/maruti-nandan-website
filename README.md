@@ -6,7 +6,7 @@
 
 ## what's this about?
 
-This is the official website for **Maruti Nandan Marble & Granite**, a paid project that showcases their premium collection of marble and granite products. Think of it as the digital storefront where customers can vibe with their products and get in touch.
+This is the official website for **Maruti Nandan Marble & Granite**, a paid project that showcases their premium collection of marble and granite products. Think of it as the digital storefront where customers can look for required products and get in touch.
 
 Built from scratch to production in just **72 hours** – design, development, email setup, AND deployment included. That's giving speed, efficiency, and main character energy.
 
@@ -114,18 +114,19 @@ This is a custom project built for Maruti Nandan Marble & Granite. Not licensed 
 
 ## 💡 Fun Facts
 
-- ✨ Built in 72 hours (Thursday night to Sunday evening)
+- ✨ Built in 72 hours 
 - 🎨 Designed with actual marble & granite aesthetics in mind
 - 🔒 Security hardened from day one
-- 📱 Mobile-first approach (Gen Z only uses phones anyway)
+- 📱 Mobile-first approach 
 - ⚡ Zero bloat, zero unnecessary frameworks
 
 ---
 
-**Made with** 💪 **and** 🎯 **by a developer who actually knows their stuff**
+**Made with** 💪 **and** 🎯 **by a developer who actually wants to build**
 
 **Last Updated**: November 22, 2025
 
 ---
 
 *P.S. If this website helps Maruti Nandan sell more marble, that's a W. That's the whole point fr fr.*
+
